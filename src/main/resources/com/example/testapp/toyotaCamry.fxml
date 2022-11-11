@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: #7B7368;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.testapp.ToyotaCamryController">
+    <children>
+        <AnchorPane layoutY="99.0" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #C9BFB3;">
+            <children>
+                <Label layoutX="14.0" layoutY="-13.0" prefHeight="83.0" prefWidth="475.0" text="TOYOTA CAMRY (2020): " textFill="#f7f8f2">
+                    <font>
+                        <Font name="Bank Gothic Medium BT" size="34.0" />
+                    </font>
+                </Label>
+                <ImageView fx:id="toyotaCamryImage" fitHeight="223.0" fitWidth="382.0" layoutX="-11.0" layoutY="105.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../../../../java/com/example/testapp/assets/toyotaCamry2.png" />
+                    </image>
+                </ImageView>
+                <Label layoutX="357.0" layoutY="40.0" prefHeight="31.0" prefWidth="103.0" text="LUXE: ">
+                    <font>
+                        <Font name="Bank Gothic Medium BT" size="24.0" />
+                    </font>
+                </Label>
+                <Label layoutX="356.0" layoutY="69.0" prefHeight="31.0" prefWidth="324.0" text="motor: 2.5 - 200l - benzine">
+                    <font>
+                        <Font name="Bank Gothic Medium BT" size="20.0" />
+                    </font>
+                </Label>
+                <Label layoutX="357.0" layoutY="91.0" prefHeight="31.0" prefWidth="286.0" text="automatic box">
+                    <font>
+                        <Font name="Bank Gothic Medium BT" size="20.0" />
+                    </font>
+                </Label>
+                <Label layoutX="357.0" layoutY="113.0" prefHeight="31.0" prefWidth="274.0" text="consumption: 6.4/11.2 l">
+                    <font>
+                        <Font name="Bank Gothic Medium BT" size="20.0" />
+                    </font>
+                </Label>
+                <Label layoutX="357.0" layoutY="135.0" prefHeight="31.0" prefWidth="402.0" text="acceleration to 100: 8.5s">
+                    <font>
+                        <Font name="Bank Gothic Medium BT" size="20.0" />
+                    </font>
+                </Label>
+                <Label layoutX="358.0" layoutY="157.0" prefHeight="31.0" prefWidth="332.0" text="price: 200 -250$ / 52 718$">
+                    <font>
+                        <Font name="Bank Gothic Medium BT" size="20.0" />
+                    </font>
+                </Label>
+                <Label layoutX="358.0" layoutY="210.0" prefHeight="31.0" prefWidth="192.0" text="COMFORT: ">
+                    <font>
+                        <Font name="Bank Gothic Medium BT" size="24.0" />
+                    </font>
+                </Label>
+                <Label layoutX="357.0" layoutY="239.0" prefHeight="31.0" prefWidth="324.0" text="motor: 2.0 - 150l - benzine">
+                    <font>
+                        <Font name="Bank Gothic Medium BT" size="20.0" />
+                    </font>
+                </Label>
+                <Label layoutX="358.0" layoutY="261.0" prefHeight="31.0" prefWidth="286.0" text="automatic box">
+                    <font>
+                        <Font name="Bank Gothic Medium BT" size="20.0" />
+                    </font>
+                </Label>
+                <Label layoutX="358.0" layoutY="283.0" prefHeight="31.0" prefWidth="274.0" text="consumption: 5.6/9.8 l">
+                    <font>
+                        <Font name="Bank Gothic Medium BT" size="20.0" />
+                    </font>
+                </Label>
+                <Label layoutX="358.0" layoutY="305.0" prefHeight="31.0" prefWidth="402.0" text="acceleration to 100: 9.6s">
+                    <font>
+                        <Font name="Bank Gothic Medium BT" size="20.0" />
+                    </font>
+                </Label>
+                <Label layoutX="358.0" layoutY="327.0" prefHeight="31.0" prefWidth="332.0" text="price: 150 -200$ / 49 563$">
+                    <font>
+                        <Font name="Bank Gothic Medium BT" size="20.0" />
+                    </font>
+                </Label>
+            <Button fx:id="homeButton8" layoutX="14.0" layoutY="350.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="65.0" style="-fx-background-color: #7B7368;" text="home" textAlignment="RIGHT" textFill="#f7f8f2">
+               <font>
+                  <Font name="Bank Gothic Medium BT" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="backButton8" layoutX="94.0" layoutY="350.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="65.0" style="-fx-background-color: #7B7368;" text="back" textAlignment="RIGHT" textFill="#f7f8f2">
+               <font>
+                  <Font name="Bank Gothic Medium BT" size="14.0" />
+               </font>
+            </Button>
+            </children>
+        </AnchorPane>
+        <Label layoutX="112.0" layoutY="7.0" prefHeight="83.0" prefWidth="573.0" text="carSharing" textFill="#f7f8f2">
+            <font>
+                <Font name="Bank Gothic Medium BT" size="76.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
